@@ -6,12 +6,10 @@ site_description: YMnRb 学习笔记
 
 # [Navigtion]
 nav:
-  - Home:
+  - 主页:
     - index.md
-  # - Blogs:
-  #   - blogs/index.md
-  # - About:
-  #   - about/index.md
+  - 科学:
+    - science/index.md
 
 theme:
   name: material
