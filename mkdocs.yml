@@ -29,7 +29,7 @@ theme:
       accent: deep orange
       toggle:
         icon: octicons/moon-16
-        name: 切换至日间模式 
+        name: 切换至日间模式
   icon:
     logo: material/book
   features:
