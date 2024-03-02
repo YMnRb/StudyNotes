@@ -9,9 +9,11 @@ nav:
   - 主页:
     - 导引: index.md
   - 科学:
-    # - 导引: science/index.md
+    - 导引: science/index.md
     - 电学: 
-      - 电现象: science/electricity.md
+      - 导引: science/electrictity/index.md
+      - 电现象: science/electricity/1.md
+      - 电流、电压和电阻: science/electricity/1.md
 
 theme:
   name: material
