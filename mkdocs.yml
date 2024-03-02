@@ -1,8 +1,6 @@
 # [Info]
 site_name: 学习笔记 # 左上角标题
 site_url: https://YMnRb.github.io/StudyNotes
-site_author: YMnRb
-site_description: YMnRb 学习笔记
 
 # [Navigtion]
 nav:
@@ -34,6 +32,9 @@ theme:
       toggle:
         icon: octicons/moon-16
         name: 切换至日间模式
+  # set the site language
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
+  language: zh 
   icon:
     logo: material/book
   features:
@@ -42,6 +43,11 @@ theme:
     - navigation.path
     - navigation.prune
     - navigation.indexes
+  # set the font
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/#configuration
+  font:
+    text: 思源黑体
+    code: Fira Mono
 
 # to use KaTeX within the project
 # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
