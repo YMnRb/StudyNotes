@@ -13,7 +13,7 @@ nav:
     - 电学: 
       - 导引: science/electricity/index.md
       - 电现象: science/electricity/1.md
-      - 电流、电压和电阻: science/electricity/1.md
+      - 电流、电压和电阻: science/electricity/3.md
 
 theme:
   name: material
@@ -42,3 +42,15 @@ theme:
     - navigation.path
     - navigation.prune
     - navigation.indexes
+
+# to use KaTeX within the project
+# https://squidfunk.github.io/mkdocs-material/reference/math/#katex
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
