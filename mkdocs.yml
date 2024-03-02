@@ -11,7 +11,7 @@ nav:
   - 科学:
     - 导引: science/index.md
     - 电学: 
-      - 导引: science/electrictity/index.md
+      - 导引: science/electricity/index.md
       - 电现象: science/electricity/1.md
       - 电流、电压和电阻: science/electricity/1.md
 
@@ -22,15 +22,15 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: deep purple
-      accent: red
+      accent: purple
       toggle:
         icon: octicons/sun-16 
         name: 切换至夜间模式
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: purple
-      accent: deep orange
+      primary: deep purple
+      accent: purple
       toggle:
         icon: octicons/moon-16
         name: 切换至日间模式
