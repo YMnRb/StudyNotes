@@ -1,0 +1,90 @@
+:root {
+    --md-text-font: 'KaTeX_Main', 'Source Han Serif';
+    --md-code-font: 'Iosevka Custom Web';
+    --md-primary-fg-color:        #7700cc;
+    --md-primary-fg-color--light: #bb99dd;
+    --md-primary-fg-color--dark:  #552266;
+}
+
+h1 {
+    color: #7700cc;
+	font-weight: 700;
+	font-size: 32px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 24px;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+h4 {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+h5 {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+h6 {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+b {
+	font-weight: 700;
+}
+
+i {
+	font-weight: 400;
+	font-style: italic;
+}
+
+strong {
+	font-weight: 700;
+}
+
+em {
+	font-family: 'Open Sans Italic', 'Harmony OS Sans';
+	font-style: normal;
+    font-weight: 400;
+}
+
+strong/em, em/strong {
+	font-family: 'Open Sans Italic', 'Harmony OS Sans';
+	font-style: normal;
+	font-weight: 700;
+}
+
+hr {
+    color: #7f7f7f;
+}
+
+/* navigation tab */
+nav.md-tabs {
+	font-size: 16px;
+}
+
+/*
+code {
+	font-family: 'Iosevka Custom Web';
+}
+*/
+
+/* title of code section */
+span.filename {
+    font-family: 'Iosevka Custom Web';
+    font-weight: 600;
+	font-stretch: expanded;
+}
+
+footer {
+	font-size: 16px;
+}
+

@@ -15,7 +15,9 @@
 Normal 常规  
 **Bold 粗体**  
 *Italic 斜体*  
-***Bold and Italic 粗斜体***
+***Bold and** Italic* ***粗**斜体*
+
+---
 
 [Link 链接](/StudyNotes/index.html "Home 回主页")
 
@@ -25,8 +27,9 @@ Here is a `code` in a line.
 
 Here is a code section below:
 
-```c
+``` c title="minesweeper.c" linenums="1"
 // from https://github.com/RainbowRoad1/Cgame/blob/master/MineSweeper/4_color_27lines.c
+// Copyright (c) 2020 RainbowRoad1
 // Thanks RainbowRoad1
 #include <windows.h>
 #include <conio.h>

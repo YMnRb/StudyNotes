@@ -6,6 +6,7 @@ site_url: https://YMnRb.github.io/StudyNotes
 nav:
   - 主页:
     - 导引: index.md
+    - 关于: about-zh-cn.md
 
 # [主题]
 theme:
@@ -34,18 +35,42 @@ theme:
     - navigation.tabs.sticky
     # - navigation.path # Insiders only
     - navigation.indexes
+    - content.code.copy
+    # - content.footnote.tooltips # Insiders only
+
+copyright: 
+  <a href="about-zh-cn" target="_blank">About this website</a> <br />
+  <span class="real-copyright" style="color:#999999;">Copyright &copy; 2025 YMnRb</span>
 
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.betterem
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - footnotes
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YMnRb
+      name: YMnRb on GitHub
+    - icon: octicons/mail-16
+      link: mailto:yuanjy_2022@163.com
+      name: E-mail YMnRb at yuanjy_2022@163.com
+
 
 extra_javascript:
   # 在项目中使用 MathJax
   # https://squidfunk.github.io/mkdocs-material/reference/math/?h=math+jax#mathjax
-  - .config/javascripts/mathjax.js
+  - _config/javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
-  - .config/stylesheets/fonts.css
-  - .config/stylesheets/extra.css
+  - _config/stylesheets/fonts.css
+  - _config/stylesheets/extra.css

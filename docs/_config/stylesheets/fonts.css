@@ -3,6 +3,7 @@
  * Harmony OS Sans
  * Source Han Serif
  * KaTeX_Main
+ * KaTeX_Math
  * Open Sans
 **/
 
@@ -1020,7 +1021,7 @@
 @font-face {
 	font-family: "Source Han Serif";
 	font-style: normal;
-	src: url('../fonts/SourceHanSerifSC-VF.otf') format("opentype");
+	src: url('../fonts/SourceHanSerifSC-VF.ttf') format("truetype");
 }
 
 /* KaTeX_Main *************************/
@@ -1053,6 +1054,36 @@
 	src: url('../fonts/KaTeX_Main-BoldItalic.woff2') format("woff2"), url('../fonts/KaTeX_Main-BoldItalic.woff') format("woff"), url('../fonts/KaTeX_Main-BoldItalic.ttf') format("truetype");
 }
 
+/* KaTeX_Math *************************/
+
+@font-face {
+	font-family: "KaTeX_Math";
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/KaTeX_Math-Regular.woff2') format("woff2"), url('../fonts/KaTeX_Math-Regular.woff') format("woff"), url('../fonts/KaTeX_Math-Regular.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "KaTeX_Math";
+	font-style: italic;
+	font-weight: 400;
+	src: url('../fonts/KaTeX_Math-Italic.woff2') format("woff2"), url('../fonts/KaTeX_Math-Italic.woff') format("woff"), url('../fonts/KaTeX_Math-Italic.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "KaTeX_Math"; 
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/KaTeX_Math-Bold.woff2') format("woff2"),  url('../fonts/KaTeX_Math-Bold.woff') format("woff"), url('../fonts/KaTeX_Math-Bold.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "KaTeX_Math";
+	font-style: italic;
+	font-weight: 700;
+	src: url('../fonts/KaTeX_Math-BoldItalic.woff2') format("woff2"), url('../fonts/KaTeX_Math-BoldItalic.woff') format("woff"), url('../fonts/KaTeX_Math-BoldItalic.ttf') format("truetype");
+}
+
 /* Open Sans **************************/
 
 /* Variable fonts */
@@ -1067,4 +1098,11 @@
 	font-style: italic;
 	src: url('../fonts/OpenSans-Italic[wdth,wght].ttf') format("truetype");
 }
+
+@font-face {
+	font-family: "Open Sans Italic";
+	font-style: normal;
+	src: url('../fonts/OpenSans-Italic[wdth,wght].ttf') format("truetype");
+}
+
 
