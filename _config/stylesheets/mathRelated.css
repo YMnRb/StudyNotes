@@ -1,0 +1,46 @@
+/** For mathematics related pages */
+
+body {
+	font-family: 'KaTeX_Main', 'Source Han Serif';
+	font-weight: 400;
+	font-size: 16px;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 32px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 24px;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+b {
+	font-weight: 700;
+}
+
+i {
+	font-weight: 400;
+	font-style: italic;
+}
+
+strong {
+	color: #cc6600;
+	font-family: 'Open Sans', 'Harmony OS Sans';
+	font-weight: 700;
+}
+
+em {
+	color: #cc6600;
+	font-style: normal;
+}
+
+code {
+	font-family: 'Iosevka Custom';
+}
