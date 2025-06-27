@@ -19,7 +19,7 @@ Normal 常规
 
 ---
 
-[Link 链接](/StudyNotes/index.html "Home 回主页")
+[Link 链接](index.md "Home 回主页")
 
 ### Code
 

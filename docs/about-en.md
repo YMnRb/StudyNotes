@@ -1,6 +1,6 @@
 # About this website
 
-English | [简体中文](../about-zh-cn)
+English | [简体中文](about-zh-cn.md)
 
 ---
 
@@ -12,7 +12,7 @@ To contact the author, you can either send e-mail[^1] or post on [GitHub](https:
 
 ### Copyright
 
-This website is licensed under the [MIT License](license). 
+This website is licensed under the [MIT License](license.md). 
 <!-- 允许您无偿将本网站内容用于任何用途，但不承担您所作出的行为的后果（具体以协议内容为准）。本站的版权及内容的最终解释权归其作者 [YMnRb](https://github.com/YMnRb) 所有。 -->
 
 ### Third-Party Supports

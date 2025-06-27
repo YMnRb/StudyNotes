@@ -1,3 +1,3 @@
 # About this website
 
-[English](../about-en) | [简体中文](../about-zh-cn)
+[English](about-en.md) | [简体中文](about-zh-cn.md)
